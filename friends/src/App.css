@@ -1,0 +1,58 @@
+*{
+  /* border: 2px grey solid; */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+
+li {
+  list-style: none;
+  margin-left: 5%;
+  color: #204963;
+  padding: 2% 0;
+  padding-right:4%;
+}
+
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.friendMap{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.friendCard{
+  width: 30%;
+
+ border:2px solid #282c34;
+ border-radius: 5px;
+ margin: 1% 0;
+ padding: 1% 0;
+
+}
+
+.friendCard > *{
+  padding: 2%;
+}
