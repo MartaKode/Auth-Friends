@@ -56,3 +56,7 @@ align-items: center;
 .friendCard > *{
   padding: 2%;
 }
+
+.error{
+  color: darkgrey;
+}
